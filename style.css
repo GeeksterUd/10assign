@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 3px;
+    margin-top: 20px;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+.inner{
+    background-color: white;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 26px;
+    top: 28px;
+}
